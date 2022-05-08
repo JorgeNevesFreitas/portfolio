@@ -7,6 +7,11 @@
     padding: 0;
 }
 
+a {
+    color: #FFFAFB ;
+    text-decoration: none; 
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -36,11 +41,7 @@ body {
     padding: 5px 30px;
    }
 
-.nav a {
-    color: #FFFAFB ;
-    text-decoration: none;
-  
-}
+
 
 .nav li {
     list-style: none;
@@ -55,7 +56,7 @@ body {
     min-height: 600px;
     display: flex;
     justify-content: right;
-    height: 100vh;
+    height: 100vh; /*significa que a altura é igual a 100% do tamanho do viewport*/
         
 }
 
@@ -120,4 +121,13 @@ button {
     margin-bottom: 2rem;
     
 }
-      
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+#contact a {
+    padding: 5px 30px;
+}    
