@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+    background-color: #2B2C28;
+    
+      
+}
+
+#welcome-section img {
+    max-width: 100%;
+    opacity: 0.3;
+    border-top: 0;
+}
+
+.nav {
+    background-color: #339989;
+    display: flex;
+    justify-content: right;
+    min-height: 50px;
+    min-width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    position: fixed;
+    top:0;
+    padding: 5px 30px;
+   }
+
+.nav a {
+    color: #FFFAFB ;
+    text-decoration: none;
+  
+}
+
+.nav li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+.welcome-section {
+    margin: 0 auto;
+    padding-top: 100px;
+    height: viewport;
+    color: #FFFAFB;
+    text-align: center;
+    min-height: 600px;
+    display: flex;
+    justify-content: right;
+        
+}
+
+
+.welcome-section h1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    padding-top: 2;
+    
+}
+
+.welcome-section p {
+    color: #339989;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.projects {
+    background-color: #7DE2D1 ;
+    
+}
+
+.projects img {
+    width: 100%;
+    height: calc(100% - 6.8rem);
+    object-fit: cover;
+
+}
+
+.project-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr); /*indica que são duas colunas com 1fração de espaço cada uma. em vez da função repeat, podemos colocar, por ex: grid-template-columns: 1fr 1fr;*/
+  margin: 1.5rem;
+    
+}
+
+.project-grid img {
+    border-bottom: 0px;
+    line-height: 0px;
+    
+}
+
+.project-grid p {
+    background-color: #2B2C28;
+    color: #FFFAFB;
+    width: 100%;
+    border-top: 0;
+    height: 2.5rem;
+    text-align: center;
+    margin-top: 0;
+   }
+
+button {
+    display: inline-block;
+    background-color: #2B2C28;
+    color: #FFFAFB;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    margin-bottom: 2rem;
+    
+}
+      
