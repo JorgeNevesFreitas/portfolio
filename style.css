@@ -50,12 +50,12 @@ body {
 .welcome-section {
     margin: 0 auto;
     padding-top: 100px;
-    height: viewport;
     color: #FFFAFB;
     text-align: center;
     min-height: 600px;
     display: flex;
     justify-content: right;
+    height: 100vh;
         
 }
 
