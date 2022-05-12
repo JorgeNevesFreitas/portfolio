@@ -96,6 +96,12 @@ body {
     
 }
 
+.projects h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
 .projects img {
     width: 100%;
     height: calc(100% - 6.8rem);
