@@ -12,6 +12,20 @@ a {
     text-decoration: none; 
 }
 
+ 
+@media (max-width: 1200px) {
+    html {  
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {  
+        font-size: 50%;
+    }
+}
+    
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -59,6 +73,7 @@ body {
     height: 100vh; /*significa que a altura é igual a 100% do tamanho do viewport*/
         
 }
+
 
 
 .welcome-section h1 {
@@ -139,3 +154,18 @@ body {
     
     
 }    
+
+@media (max-width: 768px) {
+    html {  
+        font-size: 50%;
+    }
+    ul {
+        flex-direction: column;
+    }
+    .project-grid {
+        grid-template-columns: repeat(1, 1fr);
+}
+    #contact {
+        flex-direction: column;
+    }
+}
