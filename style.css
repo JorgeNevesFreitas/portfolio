@@ -135,7 +135,16 @@ body {
     display: flex;
     justify-content: center;
     
+    
    }
+
+   p:hover {
+      
+       color: #7DE2D1;
+     
+       
+   }
+   
 
 #show-all {
     background-color: #2B2C28;
@@ -147,6 +156,12 @@ body {
     justify-content: center;
        
 }
+
+#show-all a:hover {
+    color: #7DE2D1;
+    
+}
+
 
 #contact {
     display: flex;
